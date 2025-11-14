@@ -1,0 +1,109 @@
+body {
+    color: #000000;
+    background-color: #D3D3D4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main-heading {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #333;
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+.navbar li {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+}
+
+.navbar li:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    top: 40px;
+    left: 0;
+    border-radius: 4px;
+}
+
+.dropdown-content li {
+    padding: 10px 20px;
+    color: white;
+    white-space: nowrap;
+}
+
+.dropdown-content li:hover {
+    background-color: #444;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@media all {
+    body {
+        border: 3px solid #CCCC4D;
+    }
+}
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    .navbar {
+        display: none; 
+    }
+}
+.top-header {
+    background-color: #CCCC4D;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.top-header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.top-header p {
+    margin: 5px 0 0 0;
+    font-size: 20px;
+}
+
+/* Content spacing to separate paragraphs from navbar */
+.content {
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
