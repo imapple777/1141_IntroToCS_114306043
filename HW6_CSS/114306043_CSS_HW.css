@@ -1,0 +1,190 @@
+
+body {
+    background-color: #f8f5e4;   /* 象牙白 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+}
+
+.main-container {
+    width: 1000px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    display: flex;          
+    flex-direction: row;     
+    overflow: hidden;
+}
+
+.left-panel {
+    width: 30%;
+    background-color: #faf9f4;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-panel img {
+    width: 100%;
+    display: block;
+}
+
+.text-content {
+    padding: 20px;
+}
+
+.text-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.text-content p,
+.text-content li {
+    font-size: 15px;
+}
+
+.text-content ul {
+    padding-left: 18px;
+}
+
+.school-logo {
+    width: 180px;
+    margin-top: 20px;
+}
+
+.right-panel {
+    width: 70%;
+    padding: 30px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #d8d4c8;
+    margin-bottom: 18px;
+    color: #333;
+}
+.edu-item {
+    display: flex;
+    margin-bottom: 12px;
+    gap: 20px;
+}
+
+.year {
+    font-weight: bold;
+    width: 110px;
+    color: #555;
+}
+
+.description {
+    color: #444;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e0ddd3;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+.hw-lab-container {
+    display: flex;
+    gap: 20px;
+}
+
+.hw-column,
+.lab-column {
+    flex: 1;
+    background-color: #f3f1eb;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.hw-column h3,
+.lab-column h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #444;
+}
+
+.hw-column ul,
+.lab-column ul {
+    padding-left: 18px;
+}
+
+.hw-column a,
+.lab-column a {
+    text-decoration: none;
+    color: #3d4c8a;
+    font-weight: 500;
+}
+
+.hw-column a:hover,
+.lab-column a:hover {
+    color: #1b275d;
+    text-decoration: underline;
+}
+.music-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.music-item {
+    width: 22%;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.music-item img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.music-item p {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.music-item:hover {
+    opacity: 0.8;
+}
+
+.music-note {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #666;
+}
+
+.name-block {
+    text-align: left;
+    padding: 15px 10px;
+}
+
+.name-block h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.name-block p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 4px;
+}
